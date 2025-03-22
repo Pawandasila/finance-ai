@@ -19,7 +19,8 @@ import {
   ArrowRight,
   CheckCircle,
   ChevronDown,
-  Info
+  Info,
+  MessageSquare
 } from "lucide-react";
 import { ThreeDMarquee } from "@/components/ThreeDMarquee";
 import { GlowingEffect } from "@/components/GlowingEffect";
@@ -298,8 +299,12 @@ export default function Home() {
             transition={{ duration: 0.6 }}
             className="flex gap-4"
           >
-            <Button variant="outline" className="hidden md:flex border-gray-700 bg-gray-800/50 text-white">
-              Log In
+            <Button 
+              className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white rounded-lg flex items-center gap-2"
+              onClick={() => window.location.href = '/ai-chat'}
+            >
+              <MessageSquare className="h-4 w-4" />
+              AI Chat
             </Button>
             <Button className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white rounded-lg">
               Get Started
