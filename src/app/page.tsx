@@ -98,7 +98,7 @@ const faqItems = [
   }
 ];
 
-// Enhanced stats for the hero section
+
 const heroStats = [
   { label: "Active Users", value: "25,000+" },
   { label: "Average ROI", value: "21.6%" },
@@ -117,7 +117,7 @@ export default function Home() {
     setMounted(true);
   }, []);
 
-  // Array of dashboard UI images for the 3D marquee
+  
   const dashboardImages = [
     "https://img.freepik.com/free-photo/advanced-technological-robot-interacting-with-money-finance_23-2151612687.jpg?t=st=1742662094~exp=1742665694~hmac=ed4f4293c9b0002e29af321d5f71742088cd55464c2326791508d397c29c825b&w=1380",
     "https://img.freepik.com/free-photo/advanced-technological-robot-interacting-with-money-finance_23-2151612687.jpg?t=st=1742662094~exp=1742665694~hmac=ed4f4293c9b0002e29af321d5f71742088cd55464c2326791508d397c29c825b&w=1380",
@@ -129,7 +129,7 @@ export default function Home() {
     "https://img.freepik.com/free-photo/advanced-technological-robot-interacting-with-money-finance_23-2151612687.jpg?t=st=1742662094~exp=1742665694~hmac=ed4f4293c9b0002e29af321d5f71742088cd55464c2326791508d397c29c825b&w=1380",
   ];
 
-  // Testimonials data for the animated testimonials component
+  
   const testimonialsData = [
     {
       quote: "The AI recommendations have increased my portfolio's performance by 32% in just six months. The market trend predictions are eerily accurate and have helped me stay ahead of major market movements.",
@@ -157,7 +157,7 @@ export default function Home() {
     }
   ];
 
-  // AI feature data with tooltips
+  
   const aiFeatures = [
     {
       icon: <TrendingUp size={24} />,
@@ -197,7 +197,7 @@ export default function Home() {
     }
   ];
 
-  // Animations
+  
   const fadeIn = {
     hidden: { opacity: 0, y: 20 },
     visible: { 
